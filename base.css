@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://goldenlys.github.io/WizardUI/fa/css/all.min.css');
+@import url('https://LandonAndEmma.github.io/LandonCord/fa/css/all.min.css');
 
 @font-face {
     font-family: 'emoji';
-    src: url('https://goldenlys.github.io/WizardUI/NotoColorEmoji.ttf') format('truetype');
+    src: url('https://LandonAndEmma.github.io/LandonCord/NotoColorEmoji.ttf') format('truetype');
 }
 
 :root {
     --version: "1-95"; /* 0-00 */
-    --currentVersion: "WizardUI v" var(--version);
+    --currentVersion: "LandonCord v" var(--version);
     /* MAIN VARIABLES */
     --AppName: "DISCORD";
-    --Watermark: "WizardUI";
+    --Watermark: "LandonCord";
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
-    --logo: url(https://goldenlys.github.io/WizardUI/images/home.png);
+    --logo: url(https://LandonAndEmma.github.io/LandonCord/images/home.png);
     /* THEME COLORS */
     --Primary: rgb(50, 10, 200);
     --text-link: var(--Primary);
@@ -31,7 +31,7 @@
     --Offline: rgb(90, 95, 100);
     --Streaming: rgb(110, 0, 196);
     /* BACKGROUNDS */
-    --background: url(https://goldenlys.github.io/WizardUI/images/backgrounds/clouds.png);
+    --background: url(https://LandonAndEmma.github.io/LandonCord/images/background/mkw.png);
     --bg-titlebar: rgba(0, 0, 0, 0.65);
     --bg-servers: rgba(0, 0, 0, 0.65);
     --bg-ui: rgba(0, 0, 0, 0.65);
@@ -2041,7 +2041,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
     left: 0;
     right: 0;
     height: 135px;
-    background: center / cover no-repeat url(https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg);
+    background: center / cover no-repeat url(https://LandonAndEmma.github.io/LandonCord/images/backgrounds/mkw.png);
     -webkit-filter: blur(2.5px);
     filter: blur(2.5px);
 }
@@ -2093,7 +2093,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
     left: 0;
     right: 0;
     height: 135px;
-    background: center / cover no-repeat url(https://goldenlys.github.io/WizardUI/images/backgrounds/nebula.jpg);
+    background: center / cover no-repeat url(https://LandonAndEmma.github.io/LandonCord/images/backgrounds/mkw.png);
     -webkit-filter: blur(2.5px);
     filter: blur(2.5px);
 }
@@ -2109,7 +2109,7 @@ div[class^=folderIconWrapper][style="background-color: rgba(114, 137, 218, 0.4);
 }
 
 .container_ee69e0[aria-label^="Test Server"] .header_fd6364:after {
-    content: "Testing server for WizardUI"
+    content: "Testing server for LandonCord"
 }
 
 .iconWrapper_e44302:not(.focusable-1YV_-H)>.icon_e44302 {
@@ -2478,7 +2478,7 @@ div[class^=pill] {
 
 #bd-pub-button {
     border-radius: 2.5px;
-    background: url("https://goldenlys.github.io/ThemeGen/img/public.png");
+    background: url("https://LandonAndEmma.github.io/LandonCord/images/public.png");
     color: #ffffff;
     font-size: 12px;
     background-size: 90% 90%;
@@ -4165,7 +4165,7 @@ foreignObject[mask="url(#svg-mask-voice-user-summary-item)"] {
 }
 
 .userProfileInner_c69a7b[aria-label="Yuuki"] .banner-2boKnS:after {
-    background: center / cover no-repeat url(https://goldenlys.github.io/WUITG/images/banners/monokuma-laughter.gif);
+    background: center / cover no-repeat url(https://GoldenLys.github.io/WUITG/images/banners/monokuma-laughter.gif);
 }
 
 .avatars_f1044f>.avatar_ccc074 {

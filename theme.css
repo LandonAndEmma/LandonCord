@@ -1,0 +1,70 @@
+/**
+* @name LandonCord
+* @author Landon & Emma
+* @authorLink https://github.com/LandonAndEmma
+* @version 1.0
+* @description An amazing fully customizable theme, made with 💖 by NEBULYS.
+* @website https://landonandemma.github.io/landonsoft-website/
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+
+@import url("https://LandonAndEmma.github.io/LandonCord/base.css");
+
+:root {
+    /* MAIN VARIABLES */
+    --AppName: "DISCORD";
+    --Watermark: "LandonCord";
+    --font: 'Quicksand', 'emoji', sans-serif;
+    --Text: rgb(255, 255, 255);
+    --logo: url(https://LandonAndEmma.github.io/LandonCord/images/home.png);
+
+    /* STATUS VARIABLES */
+    --Online: rgb(0, 255, 6);
+    --Idle: rgb(18, 100, 239);
+    --Unavailable: rgb(228, 15, 0);
+    --Offline: rgb(90, 95, 100);
+    --Streaming: rgb(110, 0, 196);
+
+    /* UI COLOR VARIABLES */
+    --grey: rgb(18, 19, 31);
+    --grey5: rgba(18, 19, 31, .75);
+    --darkgrey: rgb(10, 10, 20);
+    --darkgrey5: rgba(10, 10, 20, .75);
+    --ui-success: rgb(69, 208, 34);
+    --ui-warning: rgb(238, 165, 30);
+    --ui-error: rgb(208, 34, 34);
+
+    /* THEME COLORS */
+    --Primary: rgb(117 76 205);
+    --text-link: var(--Primary);
+    --text-shadow: rgb(0 0 0);
+    --Highlighted: rgba(117 76 205 / 50%);
+    --MessageHover: transparent;
+    --Unread: rgb(255 255 255);
+    --Hover: rgb(18 19 31 / 50%);
+    --Selected: rgb(56 33 146);
+
+    /* BACKGROUNDS */
+    --background: url(https://LandonAndEmma.github.io/LandonCord/images/background.png);
+    --bg-titlebar: rgba(0, 0, 0, 0.65);
+    --bg-servers: rgba(0, 0, 0, 0.65);
+    --bg-ui: rgba(0, 0, 0, 0.65);
+    --bg-chatbox: rgba(0, 0, 0, 0.5);
+    --bg-sendmessage: rgba(0, 0, 0, 0.65);
+    --bg-members: rgba(0, 0, 0, 0.65);
+    --bg-chat-elements: rgba(0, 0, 0, 0.5);
+    --bg-settings: var(--darkgrey);
+    --bg-colorprofile: rgba(0, 0, 0, 0.5);
+    --bg-alt-message: transparent;
+
+    /* SERVER SETTINGS */
+    --ServerSize: 45px;
+    --ServerPills: var(--Primary);
+    --ServerFoldersColor: var(--Primary);
+
+    /* ROUNDING */
+    --Rounding: 5px;
+    --StatusRounding: 4.5;
+    --AvatarRounding: var(--Rounding);
+}
